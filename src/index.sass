@@ -1,0 +1,23 @@
+@tailwind base
+@tailwind components
+@tailwind utilities
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap')
+
+@layer components
+  body
+    @apply font-overpass
+    article
+      input[type="radio"].btn
+        @apply h-[3rem] w-[3rem] rounded-full border-none bg-c2 text-gray-500 
+        @apply hover:text-white hover:bg-[#7c8898]
+      .btn:is(input[type="radio"]:checked)
+        @apply text-red-50
+        @apply hover:bg-primary
+    .card-body
+      background-image: radial-gradient(circle at top, #232a34 1%, #171e28 90%)
+    
+    .btn-primary
+      @apply text-white border-none
+      @apply hover:text-primary hover:bg-white
+      @apply active:text-primary active:bg-white
