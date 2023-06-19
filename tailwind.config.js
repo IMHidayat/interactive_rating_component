@@ -8,9 +8,9 @@ export default {
       },
       colors: {
         c1: "#141519",
-        c2: "#252e39",
-        c3: "#e63e30",
-        c4: "#fed103",
+        c2: "#262f38",
+        c3: "#959ca6",
+        c4: "#ce824e",
       },
       fontSize: {
         sm: "15px",
